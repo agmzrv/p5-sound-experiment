@@ -27,8 +27,7 @@ function draw() {
 
   drawSoundWave();
   drawInterface();
-
-  // BEGIN cited code
+  
   if (playing) {
     osc.freq(freq, 0.1);
     osc.amp(amp);
